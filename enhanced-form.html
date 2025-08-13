@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>week2-Assignment</title>
+</head>
+<body style="background-color: hsl(210, 17%, 95%);size: 20px;">
+    <h1 style="text-align: center;">WELCOME TO HEALTHY GRAINS STORE🫠</h1>
+    <h2> HERE ARE OUR PRODUCTS AND SERVICES
+        <ol type="i">
+            <li>Cereals wholesale and retail
+                <ul type="squire">
+                    <li>sorted</li>
+                    <li>unsorted</li>
+
+                </ul>
+            </li>
+            <li>Flour Milling
+                <ul type="box">
+                    <li>grade 1</li>
+                    <li>grade 2</li>
+                </ul>
+            </li>
+            <li>Free delivery services</li>
+        </ol>
+    </h2>
+       
+        <table border="1" width="500" height="200" style="background-color: rgb(204, 224, 142);">
+            <caption style="font-size: 30px; color: rgb(255, 136, 0);">Products and their specifications</caption>
+            <thead style="font-size: 30px; color: brown;">
+              <tr>
+                <th>Products</th>
+                <th>Origin</th>
+                  <th> Cost sh/90kg </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Yellow beans</td>
+                <td>Busia</td>
+                <td>13,000</td>
+                </tr>
+                <tr>
+                <td>Njahi</td>
+                <td>Busia</td>
+                <td>5,670</td>
+                </tr>
+                <tr>
+                <td>Maize</td>
+                <td>tanzania</td>
+                <td>4,500</td>
+                </tr>
+                <tr>
+                <td>Sorghum</td>
+                <td>Ethiopia</td>
+                <td>5,600</td>
+                </tr>
+                <tr>
+                <td>Kamande</td>
+                <td>canada</td>
+                <td>15,000</td>
+                </tr>
+            </tbody>
+        </table>
+    <P style="color: rgb(18, 215, 150); font-size: 20px;">
+    <hr class="gradient-line">
+        view products below
+    <ul>
+    <img src="E:\week2-webdev\yellowbeans.jpg " width="200" height="200" alt="yellowbeans">
+</ul> 
+<ul>
+    <img src="E:\week2-webdev\cowpeas.jpg" width="200" height="200" alt=" cowpeas">
+</ul>
+<hr>
+</P>
+<P>
+    this is the audio  and video of the week enjoy👋🏼
+</P>
+    <audio controls>
+    <source src="E:\week2-webdev\audio1.mp3" type="audio/mpeg">
+         your browser does not support audio element</audio>
+     
+    <video controls width="300" height="200">
+    <source src="E:\week2-webdev\video1.mp4">
+your browser does not support video elements;
+</video>
+</p>
+            <hr>
+            
+   <textarea id="comments" name="comments" rows="6" cols="40" 
+          placeholder="Give us a feedback" 
+          maxlength="500">
+</textarea>
+     </p>
+     <p>
+        Lets us know more about you
+        <form action="submit" autocomplete="on">
+     <fieldset style="font-size: 20px; padding: 15px; background-color: rgb(196, 227, 227);margin-bottom: 20px;">
+            <legend style="font-size: 30px;">Personal Information</legend>
+            
+            <label for="customer_id" class="required">Customer ID</label>
+            <input type="text" id="customer_id" name="customer_id" 
+                   readonly value="CUST-1001">
+            
+            <label for="full_name" class="required">Full Name</label>
+            <input type="text" id="full_name" name="full_name" 
+                   required minlength="3" maxlength="50" 
+                   placeholder="Enter name">
+            
+            <label for="email" class="required">Email</label>
+            <input type="email" id="email" name="email" 
+                   required placeholder="">
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" 
+                   pattern="[0-9]{10}" 
+                   placeholder="">
+            
+            <label for="dob" class="required">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required
+                   min="1900-01-01" max="2025-01-01">
+            
+            <label for="password" class="required">Password</label>
+            <input type="password" id="password" name="password" 
+                   required minlength="8" maxlength="20"
+                   placeholder="">
+    
+            
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="">Select a country</option>
+                <option value="Ug">Uganda</option>
+                <option value="Eg">Egypt</option>
+                <option value="Ke">Kenya</option>
+                <option value="Nr">Nigeria</option>
+            </select>
+            
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</p>
+
+<footer style="text-align: center;"> All Rights Reserved@2025</footer>
+</body>
+</html>
